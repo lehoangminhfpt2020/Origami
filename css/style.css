@@ -218,3 +218,35 @@ figure {
 h1 h2 h3 h4 h5 h6 {
     font-family: 'Lakki Reddy', cursive;
 }
+
+/*<------------------------------->*/
+/*bắt đầu css historypage*/
+.histor-of-paper {
+
+    display: block;
+    max-width:500px;
+    max-height:500px;
+    width: auto;
+    height: auto;
+}
+
+.fun-fact {
+    background-color: #8cc3ff;
+    width: auto;
+    height: auto;
+}
+.fun-fact h5{
+    color: #EEEEEE;
+    padding-top: 20px;
+}
+.fun-fact-icon{
+    padding-left: 10px;
+    width: 60px;
+    height: 60px;
+
+}
+.fun-fact p{
+    padding-top: 10px;
+    padding-left: 30px;
+    margin-top: -20px;
+}
