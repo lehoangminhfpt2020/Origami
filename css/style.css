@@ -1,0 +1,220 @@
+.all {
+    padding: 20px 20px 20px 20px;
+    margin: 0;
+    background-color: #f4f4f3;
+    /*background-color: black;*/
+    font-family: 'Palanquin', sans-serif;
+}
+.menu ul li {
+    padding: 0px 20px 0px 20px;
+}
+.menu ul li a {
+    /*color: #111111;*/
+    text-decoration: none;
+    font-size: 18px;
+}
+.menu ul li a:hover {
+    color: darkblue;
+    /*background-color: darkblue;*/
+    /*font-size: 20px;*/
+}
+.dropdown-menu {
+    background-color: #EEEEEE;
+    border: 1px solid #EEEEEE;
+}
+
+
+
+
+
+
+.iteam {
+    border-top: 1px solid black;
+    margin-left: 50px;
+    margin-top: 100px;
+}
+.iteam h2 {
+    margin-top: 30px;
+}
+.iteam {
+    /*margin-left: 100px;*/
+}
+.col-3 {
+    position: relative;
+    float: left;
+    width: auto;
+    height: auto;
+    padding: 10px 10px 10px 10px;
+}
+figure {
+    width: 300px;
+    height: 200px;
+    margin: 0;
+    padding: 0;
+    background: white;
+    overflow: hidden;
+}
+/* Zoom In #2 */
+.iteam figure img {
+    width: 300px;
+    height: auto;
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+    /*padding: 20px 20px 20px 20px;*/
+}
+.iteam figure:hover img {
+    width: 350px;
+}
+/* Zoom Out #2 */
+
+.beginer {
+    margin-top: 50px;
+    border-top: 1px solid black;
+    margin-left: 100px;
+}
+.beginer h2 {
+    margin-top: 30px;
+}
+.beginer img {
+    width: 50%;
+    margin-left: 90px;
+}
+.beginer a {
+    text-decoration: none;
+}
+
+.btn-primary,
+.btn-primary:link,
+.btn-primary:visited{
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+    border-radius: 100px;
+    font-size: 14px;
+    position: relative;
+    transition: all .2s;
+    margin-left: 120px;
+}
+
+.btn-primary::after {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    border-radius: 100px;
+    transition: all .4s;
+}
+
+.btn-primary:hover{
+    transform: translateY(-3px);
+    box-shadow: 0 5px 20px rgba(0, 0, 0, .2);
+}
+
+.btn-primary:active{
+    outline: none;
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+}
+.btn-white::after{
+    background-color: #fff;
+}
+/* xong beginer */
+
+
+.lever {
+    border-top: 1px solid black;
+    margin-top: 50px;
+    padding: 10px 10px 10px 10px;
+}
+.lever .container {
+    margin-top: 50px;
+}
+.lever a {
+    text-decoration: none;
+}
+.lever img {
+    padding: 0px 0px 20px 0px;
+}
+.easy {
+    border-top: 5px solid #52a06f;
+    padding: 20px 20px 20px 20px;
+}
+.easy img {
+    padding: 0px 0px 20px 0px;
+}
+.easy a:hover {
+    color: #52a06f;
+}
+/*___xong easy___*/
+.intermediate img {
+    padding: 0px 0px 20px 0px;
+}
+.intermediate {
+    border-top: 5px solid #c0b44c;
+    padding: 20px 20px 20px 20px;
+}
+.intermediate a:hover {
+    color: #c0b44c;
+}
+/*___xong intermediate___*/
+.advanced img {
+    padding: 0px 0px 20px 0px;
+}
+.advanced {
+    border-top: 5px solid #dd2905;
+    padding: 20px 20px 20px 20px;
+}
+.advanced a:hover {
+    color: #dd2905;
+}
+/*___xong internediate___*/
+
+/*______xong lever_____*/
+
+
+
+
+
+.history {
+    margin-top: 100px;
+    border-top: 1px solid black;
+}
+.history h2 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.history .btn {
+    color: #6600FF;
+}
+.history .btn:hover {
+    color: #000099;
+}
+
+
+
+.video {
+    margin-top: 100px;
+    border-top: 1px solid black;
+}
+.video h4 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+.footer {
+    border-top: 1px solid black;
+    margin-top: 100px;
+}
+.footer h5 {
+    margin-top: 50px;
+}
+
+h1 h2 h3 h4 h5 h6 {
+    font-family: 'Lakki Reddy', cursive;
+}
